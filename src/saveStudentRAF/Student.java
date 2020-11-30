@@ -6,13 +6,13 @@ public class Student {
     private String name;
     private double avg;
 
-    public Student() {
-    }
-
     public Student(int id, String name, double avg) {
         this.id = id;
         this.name = name;
         this.avg = avg;
+    }
+
+    public Student() {
     }
 
     @Override
@@ -48,3 +48,4 @@ public class Student {
         this.avg = avg;
     }
 }
+
